@@ -1,43 +1,154 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://getbootstrap.com/docs/4.6/components/jumbotron/">
-    <link rel="stylesheet" href="./css/style.css">
-    <title>Portfolio</title>
-</head>
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
-<body>
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <a class="navbar-brand" id="logo"href="#"><img src="./images/Screenshot 2022-12-09 153043.png" alt=""></a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarNav">
-          <ul class="navbar-nav">
-            <li class="nav-item active">
-              <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Features</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Pricing</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link disabled">Disabled</a>
-            </li>
-          </ul>
-        </div>
-      </nav>
-    <div class="jumbotron">
-        <h1 class="display-4"> Muhammad Talha</h1>
-        <p class="lead">This is a simple hero unit, a simple jumbotron-style component for calling extra attention to featured content or information.</p>
-        <hr class="my-4">
-        <p>It uses utility classes for typography and spacing to space content out within the larger container.</p>
-        <a class="btn btn-primary btn-lg" href="#" role="button">Learn more</a>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Talha Portfolio</title>
+    <link rel="stylesheet" href="./assets/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="./assets/css/aos.css" />
+    <link rel="stylesheet" href="./assets/css/line-awesome.min.css" />
+    <link rel="stylesheet" href="./assets/css/style.css" />
+  </head>
+  <body>
+    <!--NAVBAR-->
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
+    <div class="container flex-lg-column">
+      <a class="navbar-brand mx-lg-auto mb-lg-4" href="#"> <span class="h3 fw-bold d-block d-lg-none">Muhammad Talha</span></a>
+      <img src="./assets/images/BB1E59BB-BE61-46A6-BFEB-7FAE3B59899E.jpg"class="d-none d-lg-block rounded-circle" alt="">
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-toggle="collapse"
+        data-target="#navbarNav"
+        aria-controls="navbarNav"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto flex-lg-column text-lg-center">
+          
+          <li class="nav-item">
+            <a class="nav-link" href="#home">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#about-me">About me</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#work">Work</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#contact-me">Contact Me</a>
+          </li>
+          
+        
+        </ul>
       </div>
-</body>
+    </div>
+    </nav>
+    <!--//NAVBAR-->
+    <!--CONTENT WRAPPER-->
+    <div id="content-wrapper">
+    <!--Home-->
+    <section id="home" class="full-height px-lg-5">
+        <div class="row">
+            <div class="col-lg-8">
+                <h1 class="display-4 fw-bold">If you gaze into the Abyss long enough, the Abyss gazes back into you.</h1>
+                <p>-FRIEDRICH WILHELM NIETZSCHE-</p>
+            </div>
+        </div>
+    </section>
+</div>
+    <!--//Home-->
+
+    <!--ABOUT ME-->
+    <section id="about-me" class="full-height px-lg-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8"></div>
+                <h6 class="text-brand">ABOUT ME</h6>
+                  <h1>Hi, I am a student web developer at Skills For Life bootcamp, I have always been interested in software and how all these beautifull websites work. This interest lead me to join this bootcamp and get into to this industry. Before joining this boot camp I was working as a Lab tech. After working there for a year I realized that field was not for me. Other then that I have a background in Engineering. I was worked in general and areonutical engineering</h1>
+            </div>
+        </div>
+    </section>
+    <!--//ABOUT ME-->
+    <!--// WORK//-->
+    <section id="work" class="full-height px-lg-5">
+      <div class="container">
+        <div class="row pb-4">
+          <div class="col-lg-8">
+            <h6 class="text-brand">WORK</h6>
+            <h1>Work that I have done.</h1>
+          </div>
+
+
+          
+
+          <div class="row">
+
+            <div class="col-md-4">
+              <div class="work p-4 bg-base rounded-4 shadow-effect">
+                <div class="iconbox rounded-4">
+                  <i class="las la-camera"></i>
+                </div>
+                  <h4 class="mt-4 mp-2">Photography</h4>
+                  <p>I have been doing photography as a hobby for the 3 years and these are the photos I clicked.</p>
+                  <a href="#" class="link-custom">Read More</a>  
+              </div>
+            </div>
+
+            <div class="col-md-4">
+              <div class="work p-4 bg-base rounded-4 shadow-effect">
+                <div class="iconbox rounded-4">
+                  <i class="las la-book"></i>
+                </div>
+                  <h4 class="mt-4 mp-2">Books</h4>
+                  <p>I have been reading as a hobby for the 5 years and these are my favorite books.</p>
+                  <a href="#" class="link-custom">Read More</a>
+              </div>
+            </div>
+
+            <div class="col-md-4">
+              <div class="work p-4 bg-base rounded-4 shadow-effect">
+                <div class="iconbox rounded-4">
+                  <i class="las la-camera"></i>
+                </div>
+                  <h4 class="mt-4 mp-2">Workout</h4>
+                  <p>I have been working out as a hobby for the 1 years and this is my physique.</p>
+                  <a href="#" class="link-custom">Read More</a>
+              </div>
+            </div>
+
+            
+
+
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+    <!--// WORK//-->
+    <!--CONTACT ME-->
+    <section id="contact-me" class="full-height px-lg-5">
+      <div class="container">
+        <div class="row pb-4">
+          <div class="col-lg-8">
+          
+      <h2>Contact Me</h2>
+      <a id= "contact" href="#"> +447311122233 </a>
+      <a id= "contact" href="#"> Github </a>
+      <a id= "contact" href="#"> LindkedIn </a>
+      <a id= "contact" href="#"> Twitter </a>
+    </div>
+    </section>
+    <!--CONTACT ME-->
+    <!--//CONTENT WRAPPER-->
+
+    <script src="./assets/js/bootstrap.bundle.min.js"></script>
+    <script src="./assets/js/aos.js"></script>
+    <script src="./assets/js/main.js"></script>
+  </body>
 </html>
